@@ -1,6 +1,6 @@
 export function getDefaultSeo () {
   return {
-    defaultTitle: "Kanmon - A Gateway Guarding against NSFW/Spoilery Content",
+    defaultTitle: "Kanmon - A Gateway Guarding against NSFW/Spoiler Content",
     twitter: {
       cardType: "summary",
       site: "@BachMacintosh",
@@ -8,9 +8,9 @@ export function getDefaultSeo () {
     },
     openGraph: {
       type: "website",
-      title: "BachMacintosh",
+      title: "Kanmon - A Gateway Guarding against NSFW/Spoiler Content",
       // eslint-disable-next-line camelcase
-      site_name: "BachMacintosh",
+      site_name: "Kanmon",
       url: process.env.baseUrl,
     },
   };
